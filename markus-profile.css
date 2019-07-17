@@ -1,0 +1,142 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.navigator {
+    font-family: Raleway;
+    background-color: #565656;
+    padding: 7px;
+    color: white;
+    border-bottom: 3px solid #FDA63E;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.name {
+    font-family: Raleway;
+    text-align: left;
+    margin-left: 200px;
+    font-size: 300%;
+    margin-top: 150px;
+}
+
+.full-name {
+    border-bottom: 4px solid black;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 50px;
+    color: white;
+}
+
+a:hover {
+    color: #FDA63E;
+}
+
+.menu:active {
+    transform: translateY(1px);
+    filter: brightness(80%);
+}
+
+.menu:visited {
+    text-decoration: none !important;
+}
+
+.desc {
+    border-left: 3px solid #FDA63E;
+}
+
+.info {
+    font-family: Lato;
+    margin-left: 200px;
+    font-size: 150%;
+    padding-left: 30px;
+}
+
+.address {
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-family: Raleway;
+    color: #616161;
+    margin-top: 70px;
+}
+
+.skills-acc {
+    font-family: Lato;
+    margin-left: 200px;
+    font-size: 125%;
+    padding-left: 30px;
+}
+
+.experience {
+    font-family: Lato;
+    margin-left: 200px;
+    font-size: 125%;
+    padding-left: 30px;
+}
+
+.xp-name {
+    margin-bottom: 5px;
+    font-size: 110%;
+}
+
+.xp-date {
+    color: #ABAAAA;
+    margin-top: 0px;
+    font-size: 110%;
+}
+
+.education {
+    font-family: Lato;
+    margin-left: 200px;
+    font-size: 125%;
+    padding-left: 30px;
+}
+
+.ed-name {
+    margin-bottom: 5px;
+    font-size: 110%;
+}
+
+.ed-date {
+    color: #ABAAAA;
+    margin-top: 0px;
+    font-size: 110%;
+}
+
+.interests {
+    font-family: Lato;
+    margin-left: 200px;
+    font-size: 125%;
+    padding-left: 30px;
+    margin-bottom: 70px;
+}
+
+footer {
+    background-color: #565656;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #FDA63E;
+}
+
+img {
+    max-height: 40px;
+    max-width: 40px;
+}
